@@ -11,7 +11,7 @@ const Header = () => (
       <Link href="/" legacyBehavior>
         <a style={{ display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px' }}>
           <DiCssdeck size="2rem" />
-          <Span>Budding New Insights</Span>
+          <Span>BN Insights</Span>
         </a>
       </Link>
     </Div1>

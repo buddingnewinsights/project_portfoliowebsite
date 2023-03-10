@@ -1,43 +1,62 @@
 export const projects = [
   {
-    title: 'MERN Memories',
+    title: 'Youtube Clone Application',
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+      "Build and Deploy a Modern YouTube Clone Application in React JS with Material UI 5.",
     image: '/images/1.png',
-    tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    tags: ['RapidUI', 'MUI5', 'MaterialUI', 'ReactJS'],
+    source: 'https://github.com/buddingnewinsights/youtube_clone',
+    visit: 'https://burgeonmedia.netlify.app/',
     id: 0,
   },
   {
-    title: 'E-Commerce',
+    title: 'Modern E-Commerce Application',
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+      "Build and Deploy a fully responsive Modern Full Stack E-commerce application with Payments functionality.",
     image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    tags: ['NextJS', 'Ecommerce', 'Stripe', 'Sanity'],
+    source: 'https://github.com/buddingnewinsights/ecommerce_sanity_stripe',
+    visit: 'https://ecommerce-sanity-stripe-opal-alpha.vercel.app/',
     id: 1,
   },
   {
-    title: 'WebRTC App',
+    title: 'TikTok Clone Application',
     description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: '/images/3.jpg',
-    tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+      "Build and Deploy a Full Stack Video-Sharing Social Media Application",
+    image: '/images/3.png',
+    tags: ['NextJS', 'TypeScript', 'Sanity', 'Tailwind CSS'],
+    source: 'https://github.com/buddingnewinsights/toktok_clone',
+    visit: 'https://toktok-clone-five.vercel.app/',
     id: 2,
   },
   {
-    title: 'Unichat',
+    title: 'Metaverse',
     description:
-      'This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application',
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+      'Build and Deploy a Modern Next 13 Website With Framer Motion & Tailwind CSS',
+    image: '/images/4.png',
+    tags: ['NextJS', 'Tailwind CSS', 'Framer Motion'],
+    source: 'https://github.com/buddingnewinsights/metaverse_bni',
+    visit: 'https://metaverse-bni.vercel.app/',
     id: 3,
+  },
+];
+
+export const projectDemo = [
+  {
+    title: 'Project 1',
+    description: 'This is really really really long description about the project.',
+  },
+  {
+    title: 'Project 2',
+    description: 'This is really really really long description about the project.',
+  },
+  {
+    title: 'Project 3',
+    description: 'This is really really really long description about the project.',
+  },
+  {
+    title: 'Project 4',
+    description: 'This is really really really long description about the project.',
   },
 ];
 

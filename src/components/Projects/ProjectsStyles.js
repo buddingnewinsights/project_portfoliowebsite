@@ -12,7 +12,7 @@ display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 padding: 3rem;
 place-items: center;
-column-gap: 2rem;
+column-gap: 3rem;
 row-gap: 3rem;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
@@ -49,10 +49,10 @@ export const HeaderThree = styled.h3`
 
 export const Hr = styled.hr`
   width: 50px;
-  height: 3px;
+  height: 2px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background: linear-gradient(270deg,#13ADC7 0%,#945DD6 100%);
 `;
 
 export const Intro = styled.div`
@@ -68,11 +68,11 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 0 50px;
+  padding: 0 24px;
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
-  text-align: justify;
+  text-align: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
   
@@ -85,19 +85,19 @@ export const UtilityList = styled.ul`
   padding: 0;
   display: flex;
   justify-content: space-around;
-  margin: 2.5rem 0;
+  margin: 2rem 0;
 `;
-
+// 6b3030
 export const ExternalLinks = styled.a`
 color:#d4c0c0;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: #090979;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
-
+  background: linear-gradient(270deg,#13ADC7 0%,#945DD6 100%);
+  color: #000;
 }
 `;
 
@@ -107,6 +107,6 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
+color: #00d4ff;
 font-size: 1.5rem;
 `

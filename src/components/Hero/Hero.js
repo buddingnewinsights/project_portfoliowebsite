@@ -12,7 +12,7 @@ const Hero = (props) => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        I'm a Modern Front-End Web Developer. I'm base in Vietnam. By applying my knowledge of UI/UX design, I am able to
+        I'm a Modern Front-End Web Developer. I'm base in Vietnam. <br /> By applying my knowledge of UI/UX design, I am able to
         solve problems and provide users with the best possible experience.
       </SectionText>
       <Button onClick={() => window.location = 'https://linktr.ee/designbybud'}>Learn More</Button>
